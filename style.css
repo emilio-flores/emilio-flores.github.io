@@ -1,0 +1,38 @@
+h1 {
+  position: fixed;
+  float: left;
+  font-family: sans-serif;
+  z-index: 2;
+  opacity: 0.5;
+}
+body {
+  font-family: serif;
+  font-size: 20px;
+}
+img {
+  display: block;
+    width: 800px;
+  margin: 0 auto;
+  z-index: 1;
+}
+#ig {
+  /*Moves the ig link to bottom right.*/
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+#ig:hover {
+  color: red;
+}
+#about {
+  /*Moves the ?? to the bottom left.*/
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+#up {
+  text-decoration: none;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
